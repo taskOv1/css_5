@@ -1,0 +1,98 @@
+/*Обнуление*/
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
+/*--------------------*/
+
+body {
+	background: #e8e8e8;
+}
+
+.main {
+	width: 842px;
+	height: auto;
+	margin: 126px auto 0 auto;
+	margin-bottom: 104px;
+}
+.header {}
+h1 {
+	font-family: "Times New Romn", serif;
+	font-size: 36px;
+	text-align: center;
+	color: #273d46;
+}
+.travel {
+	color: #273d46;
+	font-size: 14px;
+	text-align: center;
+	margin-top: 25px;
+	margin-bottom: 30px;
+}
+.header-image img {
+	width: 842px;
+	height: 560px;
+	border: 10px solid #fff;
+	margin: 77px 0 98px 0;
+}
+.content {
+	margin-left: 44px;
+}
+p {
+	font-family: "Times New Roman", serif;
+	font-size: 24px;
+	margin: 0 45px 0 0;
+	color: #273d46;
+}
+.first-p {
+	margin-bottom: 57px;
+}
+.list {
+	margin-top: 62px;
+	font-size: 20px;
+}
+
+.list li {
+	margin-bottom: 17px;
+	background: url(../img/icons/li.svg) 0 0 no-repeat;
+	padding-left: 28px;
+}
+
+.list li:nth-child(1) {
+	color: #273d46;
+}
+.list li:nth-child(2) {
+	color: #80b7b3;
+	font-style: italic;
+}
+.list li:nth-child(3) {
+	color: #273d46;
+	font-weight: 700;
+}
+.list li:nth-child(4) {
+	color: grey;
+	text-decoration: line-through;
+}
+
+.button {
+	height: 44px;
+	width: 200px;
+	border-radius: 50px;
+	background: #80b7b3;
+	color: white;
+	font-size: 14px;
+	letter-spacing: 4px;
+	margin-top: 49px;
+	margin-bottom: 34px;
+}
